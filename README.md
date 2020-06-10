@@ -3,7 +3,7 @@ Author  : Danial (dfx)
 Version : 1  
 
 A Brainfuck interpreter written in C.  
-The provided Hello.bf Brainfuck code is taken from [Wikipedia](##Reference).
+The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).
 
 ## Usage
 
@@ -17,7 +17,7 @@ The provided Hello.bf Brainfuck code is taken from [Wikipedia](##Reference).
 ## Instructions
 
 This is a simplified tutorial on Brainfuck. For more info, check the article
-on [Wikipedia](##Reference).
+on [Wikipedia](#Reference).
 
 ```
 + : Increment the value on current memory cell by 1.  
