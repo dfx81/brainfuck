@@ -10,7 +10,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <string.h>
 #include <stdbool.h>
+
+#define MEM_LENGTH 30000
 
 void error(int err);
 void load();
@@ -26,8 +29,6 @@ void bnz(int *i);
 
 // Implementation based on Wikipedia.
 // Memory size is 30000 * 1 byte.
-const int MEM_LENGTH = 30000;
-
 // Memory is implemented as unsigned 8 bit integer.
 // No signed values + overflow/underflow.
 // All cells assigned with inital value of 0.

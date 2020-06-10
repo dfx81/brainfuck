@@ -1,9 +1,14 @@
 # Brainfuck
 Author  : Danial (dfx)  
-Version : 1  
+Version : 1.0  
 
 A Brainfuck interpreter written in C.  
-The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).
+The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).  
+
+## Downloads
+
+- [Windows](https://github.com/dfx81/Brainfuck/blob/master/BF.exe)
+- [Linux](https://github.com/dfx81/Brainfuck/blob/master/BF)
 
 ## Usage
 
@@ -12,7 +17,8 @@ The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).
 3. OPTIONAL: Provide the debug flag (-d) to display the final memory state.  
 
 > Example to run the provided Hello.bf file with debug mode:  
-  ```./BF Hello.bf -d```
+  ```Linux$./BF Hello.bf -d```  
+  ```Windows>BF.exe Hello.bf -d```
 
 ## Instructions
 
