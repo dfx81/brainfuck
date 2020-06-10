@@ -93,7 +93,7 @@ void load() {
     len = ftell(fp);
     fseek(fp, 0L, SEEK_SET);
 
-    cur = malloc(len * sizeof(char));
+    cur = (char*) malloc(len * sizeof(char));
 
     for (int i = 0; i != len; i++) {
         cur[i] = fgetc(fp);
