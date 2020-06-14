@@ -1,6 +1,6 @@
 # ![BF.ico](https://raw.githubusercontent.com/dfx81/Brainfuck/master/BF.ico) Brainfuck
 Author  : Danial (dfx)  
-Version : 1.0  
+Version : 1.1  
 
 A Brainfuck interpreter written in C.  
 The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).  
