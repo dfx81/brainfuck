@@ -136,6 +136,7 @@ void run() {
     }
 
     free(cur); // IMPORTANT: FREE THE MEMORY
+    getchar(); // Wait for user input to end program
 }
 
 // add responds to '+'.
