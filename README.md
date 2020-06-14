@@ -1,4 +1,4 @@
-# Brainfuck
+# ![BF.ico](https://raw.githubusercontent.com/dfx81/Brainfuck/master/BF.ico) Brainfuck
 Author  : Danial (dfx)  
 Version : 1.0  
 
@@ -12,9 +12,16 @@ The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).
 
 ## Usage
 
-1. Recompile the program using make (BF file provided was compiled for Linux).
-2. Run the program on the command line with the Brainfuck filename as argument.
-3. OPTIONAL: Provide the debug flag (-d) to display the final memory state.  
+### GUI
+
+1. Find the file to run and set its default program to the Brainfuck program downloaded.
+2. Save and apply the settings.
+3. Double click any .bf file to run the program.
+
+### Command Line
+
+1. Run the program on the command line with the Brainfuck filename as argument.
+2. OPTIONAL: Provide the debug flag (-d) to display the final memory state.  
 
 > Example to run the provided Hello.bf file with debug mode:  
   ```Linux$./BF Hello.bf -d```  
