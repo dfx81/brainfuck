@@ -1,31 +1,29 @@
 # ![BF.ico](https://raw.githubusercontent.com/dfx81/Brainfuck/master/BF.ico) Brainfuck
 Author  : Danial (dfx)  
-Version : 1.1  
+Version : 2.0  
 
 A Brainfuck interpreter written in C.  
 The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).  
 
 ## Downloads
 
-- [Windows](https://github.com/dfx81/Brainfuck/blob/master/BF.exe)
-- [Linux](https://github.com/dfx81/Brainfuck/blob/master/BF)
+- [Windows](#TBD)
+- [Linux](#TBD)
 
 ## Usage
 
-### GUI
+Run the program on the command line with the Brainfuck filename as argument.
 
-1. Find the file to run and set its default program to the Brainfuck program downloaded.
-2. Save and apply the settings.
-3. Double click any .bf file to run the program.
+> Example to run the provided hello.bf file with debug mode:  
+  ```Linux   $ ./bf hello.bf```  
+  ```Windows > bf.exe hello.bf```
 
-### Command Line
+## Build Instructions
 
-1. Run the program on the command line with the Brainfuck filename as argument.
-2. OPTIONAL: Provide the debug flag (-d) to display the final memory state.  
+Simply run ```make build```.
 
-> Example to run the provided Hello.bf file with debug mode:  
-  ```Linux$./BF Hello.bf -d```  
-  ```Windows>BF.exe Hello.bf -d```
+Requirements: [mingw32-w64](https://www.mingw-w64.org/) must be installed for
+Windows build. Other compilers aside from ```gcc``` have not been tested.
 
 ## Instructions
 
