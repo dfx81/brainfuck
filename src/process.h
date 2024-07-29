@@ -6,7 +6,7 @@
 typedef struct {
     uint8_t mem[64 * 1024];
     uint16_t ptr;
-    uint16_t stack[32 * 1024];
+    uint16_t stack[64 * 1024];
     uint16_t stack_ptr;
     char *program;
     uint64_t program_ptr;

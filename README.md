@@ -5,6 +5,12 @@ Version : 2.0
 A Brainfuck interpreter written in C.  
 The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).  
 
+## Specifications
+
+- 64kb memory limit (compared to the base 30kb)
+- 64kb program size limit
+- 64kb stack size limit
+
 ## Downloads
 
 - [Windows](https://github.com/dfx81/brainfuck/releases/tag/v2.0/bf.exe)
