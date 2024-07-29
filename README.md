@@ -1,4 +1,4 @@
-# ![BF.ico](https://raw.githubusercontent.com/dfx81/Brainfuck/master/BF.ico) Brainfuck
+# ![bf.ico](https://raw.githubusercontent.com/dfx81/Brainfuck/master/bf.ico) Brainfuck
 Author  : Danial (dfx)  
 Version : 2.0  
 
@@ -7,8 +7,8 @@ The provided Hello.bf Brainfuck code is taken from [Wikipedia](#Reference).
 
 ## Downloads
 
-- [Windows](#TBD)
-- [Linux](#TBD)
+- [Windows](https://github.com/dfx81/brainfuck/releases/tag/v2.0/bf.exe)
+- [Linux](https://github.com/dfx81/brainfuck/releases/tag/v2.0/bf)
 
 ## Usage
 
